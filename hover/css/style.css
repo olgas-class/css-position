@@ -1,0 +1,43 @@
+.wrapper {
+    position: relative;
+    background-color: lightblue;
+    width: 50%;
+    height: 400px;
+}
+
+.wrapper:hover {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: brown;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Quando passo con il mouse sopra il wrapper il colore del testo cambia */
+.wrapper:hover h1 {
+    color: blue;
+    top: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(95% / 3);
+}

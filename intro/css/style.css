@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-2 {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid blueviolet;
+}
+
+.container {
+  position: relative;
+  margin-top: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  /* position: relative; */
+  /* i px vengono aggiunti a lato sinistro */
+  /* left: 50%;
+  top: 30px; */
+
+  /* position: absolute;
+  top: 20px;
+  left: 20px; */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: green;
+}
+
+.violet {
+  background-color: violet;
+}
