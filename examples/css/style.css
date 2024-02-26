@@ -1,0 +1,136 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  /* Facendo così section diventa container per elemnto absolute interno */
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid black;
+  min-height: 200px;
+}
+
+.wrapper {
+  background-color: lightcoral;
+  padding: 150px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+/* .relative { */
+/* position relative */
+/* position: relative;
+  top: 30px; */
+/* bottom: 30px; */
+/* left: 40px; */
+/* right: 40px; */
+/* } */
+
+.absolute {
+  position: absolute;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.block-1 {
+  position: relative;
+  margin: 30px;
+  width: 400px;
+  height: 300px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+
+.ex-1 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+}
+
+.block-2 {
+  position: relative;
+  margin: 30px;
+  width: 400px;
+  min-height: 400px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+
+.block-2 .green {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1;
+}
+
+.block-2 .blue-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.block-2 .blue-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.block-3 {
+  position: relative;
+  margin: 30px;
+  width: 600px;
+  min-height: 600px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.inner-block-1,
+.inner-block-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+}
+
+.red {
+  background-color: red;
+}
+
+.block-3 .red-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.block-3 .red-4 {
+  position: relative;
+  left: 10px;
+}
